@@ -1,0 +1,417 @@
+[
+ {
+  "nom": "propre-sante",
+  "notes": "Depuis le 12 septembre, Nadia refuse de prendre son traitement du soir. Elle dit qu'il la fatigue. Je propose de demander un rendez-vous chez son médecin pour réévaluer la posologie.",
+  "sujet": [
+   "Santé – Nadia : Refus de prendre son traitement du soir",
+   "Depuis le 12 septembre"
+  ],
+  "propo": "Demander un rendez-vous chez son médecin pour réévaluer la posologie."
+ },
+ {
+  "nom": "propre-suivi",
+  "notes": "Suite au dernier colloque, nous avions décidé d'essayer un planning visuel pour Marc. Après trois semaines, il l'utilise chaque matin. Je propose de clore le point.",
+  "sujet": [
+   "Suivi – Marc : Planning visuel",
+   "Suite au dernier colloque"
+  ],
+  "propo": "Clore le point."
+ },
+ {
+  "nom": "propre-orga",
+  "notes": "Les horaires du tournus de novembre sont modifiés à partir du 4. Il manque une personne le samedi soir. Je propose que Sophie contacte les auxiliaires.",
+  "sujet": [
+   "Changement des horaires du tournus de novembre"
+  ],
+  "propo": "Contacter les auxiliaires."
+ },
+ {
+  "nom": "propre-comportement",
+  "notes": "Julien a eu trois crises de colère cette semaine lors des repas, avec des cris et un verre cassé mardi. Proposition : faire les repas de Julien dans un espace plus calme pendant deux semaines.",
+  "sujet": [
+   "Comportement – Julien : Trois crises de colère"
+  ],
+  "propo": "Faire les repas de Julien dans un espace plus calme pendant deux semaines."
+ },
+ {
+  "nom": "propre-sortie",
+  "notes": "La sortie au zoo de Bâle est prévue le 18 octobre. Il faut réserver le bus. Je propose de réserver le minibus de la fondation.",
+  "sujet": [
+   "Sortie au zoo de Bâle"
+  ],
+  "propo": "Réserver le minibus de la fondation."
+ },
+ {
+  "nom": "oral-retour-tard",
+  "notes": "bon alors ya un souci avec kevin il rentre tard le soir genre 23h et personne sait ou il est",
+  "sujet": [
+   "Kevin : Retards le soir",
+   "Kevin rentre tard"
+  ],
+  "alertes": [
+   "Termes vagues"
+  ]
+ },
+ {
+  "nom": "oral-cles",
+  "notes": "faudrait voir pour les clés de la cuisine qui disparaissent tout le temps c'est chiant",
+  "sujet": [
+   "Clés de la cuisine"
+  ],
+  "alertes": [
+   "Jugement de valeur",
+   "Généralisation"
+  ]
+ },
+ {
+  "nom": "oral-pleurs",
+  "notes": "Sarah elle pleure souvent le soir dans sa chambre depuis la mort de son chat je sais pas quoi faire",
+  "sujet": [
+   "Sarah : Pleurs le soir"
+  ],
+  "absent": [
+   "je ne sais pas"
+  ]
+ },
+ {
+  "nom": "info-stagiaire",
+  "notes": "info: nouvelle stagiaire lundi, elle s'appelle Léa, faut lui montrer les dossiers",
+  "sujet": [
+   "Nouvelle stagiaire lundi"
+  ],
+  "propo": "Montrer à Léa les dossiers."
+ },
+ {
+  "nom": "fautes-repas",
+  "notes": "jsp si c'est important mais Tom mange plus trop le midi a l'atelier, il dit qu'il a pas faim. on pourrait peut etre en parler avec sa mère ?",
+  "sujet": [
+   "Tom : Alimentation insuffisante",
+   "il n'a pas faim"
+  ],
+  "propo": "En parler avec sa mère."
+ },
+ {
+  "nom": "linge",
+  "notes": "problème avec le linge !!! les vêtements de Paul se retrouvent chez Lucie, faudrait étiquetter tout le linge",
+  "propo": "Étiqueter tout le linge."
+ },
+ {
+  "nom": "reseau",
+  "notes": "Mme Rossi (curatrice de Ahmed) veut une réunion de réseau avant noel. on doit trouver une date",
+  "sujet": [
+   "réunion de réseau"
+  ],
+  "propo": "Trouver une date."
+ },
+ {
+  "nom": "jugement",
+  "notes": "c'est ingérable avec Bruno il fait n'importe quoi, il insulte tout le monde, il faut le recadrer",
+  "sujet": [
+   "Bruno : Insultes"
+  ],
+  "alertes": [
+   "Jugement de valeur"
+  ]
+ },
+ {
+  "nom": "abrev-rdv",
+  "notes": "rdv dentiste pr Clara le 14.11 à 9h, qqn doit l'accompagner, pb: personne de dispo le matin",
+  "sujet": [
+   "Rendez-vous dentiste le 14.11"
+  ]
+ },
+ {
+  "nom": "budget",
+  "notes": "On a recu la facture du camp 1200 CHF ca depasse le budget de 300. on fait quoi",
+  "sujet": [
+   "Facture du camp 1200 CHF"
+  ]
+ },
+ {
+  "nom": "frigo",
+  "notes": "le frigo de l'étage 2 est cassé depuis lundi on a mis la nourriture dans celui du bas"
+ },
+ {
+  "nom": "fautes-atelier",
+  "notes": "Emma veux arreter l'atelier bois pour aller a l'atelier cuisine, elle en parle tout les jours. je propose quon fasse un essai de 2 semaines en cuisine",
+  "sujet": [
+   "Emma : Souhait d'arrêter l'atelier bois"
+  ],
+  "propo": "Faire un essai de 2 semaines en cuisine."
+ },
+ {
+  "nom": "info-pdv",
+  "notes": "pour info la direction demande qu'on remplisse les nouveaux PdV avant fin octobre"
+ },
+ {
+  "nom": "deux-sujets",
+  "notes": "Kevin + Sarah dispute hier soir au salon, Sarah a griffé Kevin au bras. et aussi faut parler des vacances de Noël",
+  "alertes": [
+   "Plusieurs sujets"
+  ]
+ },
+ {
+  "nom": "divers",
+  "notes": "divers : la machine à café fait du bruit",
+  "sujet": [
+   "Machine à café"
+  ],
+  "alertes": [
+   "divers"
+  ]
+ },
+ {
+  "nom": "suivi-question",
+  "notes": "point de situation sur le projet d'appartement protégé de Marc, où en est on ?",
+  "sujet": [
+   "Suivi",
+   "Projet d'appartement protégé"
+  ]
+ },
+ {
+  "nom": "majuscules",
+  "notes": "IL FAUT ABSOLUMENT PARLER DE LA SECURITE INCENDIE, LES EXTINCTEURS SONT PERIMES",
+  "sujet": [
+   "Sécurité"
+  ],
+  "absent": [
+   "IL FAUT",
+   "Sécurité – Sécurité"
+  ]
+ },
+ {
+  "nom": "chute-AB",
+  "notes": "Louis tombé dans la douche hier, pas blessé, mais le tapis antidérapant est usé. propo: acheter des tapis neufs pour les 3 douches, sinon installer des barres d'appui",
+  "propo": "A. Acheter des tapis neufs pour les 3 douches.\nB. Installer des barres d'appui."
+ },
+ {
+  "nom": "avis-equipe",
+  "notes": "moi je trouve que les transmissions sont pas bien faites le matin, on perd des infos"
+ },
+ {
+  "nom": "decision-claire",
+  "notes": "Lucie demande à appeler sa sœur tous les soirs, actuellement c'est 2 fois par semaine. Il faudrait décider si on accepte."
+ },
+ {
+  "nom": "vide",
+  "notes": ""
+ },
+ {
+  "nom": "espaces",
+  "notes": "   \n\n   "
+ },
+ {
+  "nom": "injection-html",
+  "notes": "<script>alert(1)</script> Nadia <img src=x onerror=alert(1)> refuse le repas"
+ },
+ {
+  "nom": "regex",
+  "notes": ".*+?^${}()|[]\\ Marc (test) [Personne 1] $1 $& refuse"
+ },
+ {
+  "nom": "emoji",
+  "notes": "😀😀😀 🙃 Marc 😡 refuse la douche 🚿"
+ },
+ {
+  "nom": "un-car",
+  "notes": "a"
+ },
+ {
+  "nom": "chiffres",
+  "notes": "12345 67890"
+ },
+ {
+  "nom": "sans-espaces",
+  "notes": "Nadiarefusesontraitementdepuisunesemaine"
+ },
+ {
+  "nom": "anglais",
+  "notes": "Mark refuses his medication since Monday, I suggest calling the doctor",
+  "absent": [
+   "thé",
+   "médication"
+  ]
+ },
+ {
+  "nom": "plein-noms",
+  "notes": "Marc, Julie, Paul, Lucie, Kevin et Sarah ont participé à la sortie au lac samedi, tout s'est bien passé. Je propose de refaire une sortie en novembre.",
+  "sujet": [
+   "Participation à la sortie au lac"
+  ],
+  "propo": "Refaire une sortie en novembre."
+ },
+ {
+  "nom": "propo-seule",
+  "notes": "je propose de changer les horaires du repas du soir",
+  "sujet": [
+   "Horaires du repas du soir"
+  ],
+  "propo": "Changer les horaires du repas du soir."
+ },
+ {
+  "nom": "guillemets",
+  "notes": "Il a dit « je veux pas » et l’équipe n’a pas insisté. Je propose qu’on réessaie demain.",
+  "propo": "Réessayer demain."
+ },
+ {
+  "nom": "ou-alors",
+  "notes": "Je propose que Marc fasse sa chambre le samedi ou alors qu'il la fasse le dimanche",
+  "propo": "A. Faire sa chambre le samedi.\nB. La faire le dimanche."
+ },
+ {
+  "nom": "juste-parler",
+  "notes": "il faudrait qu'on parle de la situation de Jean-Pierre",
+  "sujet": [
+   "Jean-Pierre"
+  ]
+ },
+ {
+  "nom": "multiligne",
+  "notes": "Nadia\n- refuse le traitement\n- depuis lundi\n- dort mal\nidée : appeler le médecin",
+  "sujet": [
+   "Nadia : Refus du traitement"
+  ],
+  "propo": "Appeler le médecin."
+ },
+ {
+  "nom": "av1",
+  "notes": "Yann fume dans sa chambre la nuit, on a retrouvé des mégots 3 fois cette semaine. Danger incendie. je propose un rappel du règlement avec lui et son référent",
+  "sujet": [
+   "Yann : Fume dans sa chambre"
+  ],
+  "propo": "Faire un rappel du règlement avec lui et son référent."
+ },
+ {
+  "nom": "av2",
+  "notes": "la maman de Chloé appelle tous les jours au bureau pour savoir comment elle va, ça prend beaucoup de temps aux collègues"
+ },
+ {
+  "nom": "av3",
+  "notes": "est ce qu'on maintient la sortie piscine de jeudi vu qu'il manque un éduc ?",
+  "sujet": [
+   "Maintien de la sortie piscine de jeudi"
+  ],
+  "absent": [
+   "Manque"
+  ]
+ },
+ {
+  "nom": "av4",
+  "notes": "Rappel : formation premiers secours le 22 novembre, inscriptions auprès de Martine avant vendredi",
+  "sujet": [
+   "Formation premiers secours le 22 novembre"
+  ]
+ },
+ {
+  "nom": "av5",
+  "notes": "Hugo a frappé un collègue de l'atelier lundi. Le patron de l'atelier demande une rencontre. Proposition : organiser une rencontre avec Hugo, le patron et son référent la semaine prochaine.",
+  "sujet": [
+   "Hugo : Geste violent envers un collègue"
+  ],
+  "propo": "Organiser une rencontre avec Hugo, le patron et son référent la semaine prochaine."
+ },
+ {
+  "nom": "av6",
+  "notes": "depuis 2 mois Inès prend du poids, elle se ressert à chaque repas et grignote la nuit. faudrait qu on en parle avec la diététicienne",
+  "sujet": [
+   "Inès : Prise de poids"
+  ],
+  "absent": [
+   "Prise de poids la nuit"
+  ],
+  "propo": "En parler avec la diététicienne."
+ },
+ {
+  "nom": "av7",
+  "notes": "on a plus de gants ni de produits pour la lessive, il faut faire une commande",
+  "sujet": [
+   "Manque de gants et de produits"
+  ],
+  "propo": "Faire une commande."
+ },
+ {
+  "nom": "av8",
+  "notes": "Retour sur la décision du 3 septembre (argent de poche de Noah géré par l'équipe) : ça se passe bien, il demande à gérer seul 20 CHF par semaine. Je propose d'essayer un mois.",
+  "sujet": [
+   "Suivi",
+   "Noah"
+  ],
+  "propo": "Essayer un mois."
+ },
+ {
+  "nom": "av9",
+  "notes": "les résidents se plaignent du bruit de la télé après 22h",
+  "sujet": [
+   "Plaintes concernant le bruit de la télé"
+  ]
+ },
+ {
+  "nom": "av10",
+  "notes": "MAXIME A FUGUÉ HIER SOIR, RETROUVÉ À LA GARE PAR LA POLICE À 23H",
+  "sujet": [
+   "Fugue hier soir"
+  ]
+ },
+ {
+  "nom": "av11",
+  "notes": "Est-ce que quelqu'un peut remplacer Chantal le 12 ?? sinon on ferme l'atelier cuisine",
+  "sujet": [
+   "Remplacement de Chantal le 12"
+  ]
+ },
+ {
+  "nom": "av12",
+  "notes": "lucas il veut plus aller au travail le matin, il reste au lit, on sait plus quoi faire avec lui",
+  "sujet": [
+   "Lucas : Refus d'aller au travail"
+  ],
+  "absent": [
+   "quoi faire"
+  ]
+ },
+ {
+  "nom": "propo-ce-serait-bien",
+  "notes": "Kevin arrive en retard au travail depuis 3 semaines. ce serait bien qu'on l'accompagne le matin",
+  "propo": "Accompagner Kevin le matin."
+ },
+ {
+  "nom": "propo-est-ce-quon-peut",
+  "notes": "Julie mange seule dans sa chambre depuis 2 semaines. est-ce qu'on peut lui proposer de manger avec le groupe ?",
+  "propo": "Proposer à Julie de manger avec le groupe."
+ },
+ {
+  "nom": "propo-il-serait-utile",
+  "notes": "Les transmissions du soir sont oubliées depuis le mois dernier. il serait utile de prévoir un cahier de transmissions",
+  "propo": "Prévoir un cahier de transmissions."
+ },
+ {
+  "nom": "propo-pourquoi-pas",
+  "notes": "Marie veut aller seule en ville le samedi. pourquoi pas tester une sortie seule le samedi pendant un mois",
+  "propo": "Tester une sortie seule le samedi pendant un mois."
+ },
+ {
+  "nom": "propo-lidee-cest",
+  "notes": "Le planning de la vaisselle n'est pas respecté depuis la rentrée. l'idée c'est de faire un tournus affiché dans la cuisine",
+  "propo": "Faire un tournus affiché dans la cuisine."
+ },
+ {
+  "nom": "propo-nous-proposons",
+  "notes": "nous proposons de changer l'heure du repas du soir à 18h30",
+  "propo": "Changer l'heure du repas du soir à 18h30."
+ },
+ {
+  "nom": "propo-on-propose-dans-quon",
+  "notes": "Julie s'ennuie le mercredi depuis la rentrée. il faudrait qu'on propose à Julie un atelier",
+  "propo": "Proposer à Julie un atelier."
+ },
+ {
+  "nom": "propo-pronom-objet-garde",
+  "notes": "Kevin a cassé sa chaise lundi. il faut qu'on la répare",
+  "propo": "La réparer."
+ },
+ {
+  "nom": "sujet-parler-pas-propo",
+  "notes": "ce serait bien qu'on parle de Mélissa, elle refuse sa douche depuis 2 semaines",
+  "propo": "[Proposition à compléter]"
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "name": "formulateur-oj",
+  "private": true,
+  "description": "Outil web pour formuler un point d'ordre du jour de colloque d'équipe",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "test": "node tests/crash-test.js",
+    "test:detail": "node -e \"process.env.DETAIL=1;require('./tests/crash-test.js')\""
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

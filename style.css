@@ -1,0 +1,83 @@
+/* Polices hébergées avec la page : aucune requête vers un service tiers */
+@font-face { font-family: "Atkinson Hyperlegible"; font-weight: 400; font-display: swap; src: url("fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2"); }
+@font-face { font-family: "Atkinson Hyperlegible"; font-weight: 700; font-display: swap; src: url("fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Literata"; font-weight: 600; font-display: swap; src: url("fonts/literata-latin-600-normal.woff2") format("woff2"); }
+
+/* Outil de travail sur ordinateur : notes et compléments à gauche, point d'OJ prêt à copier à droite */
+:root {
+  /* Couleurs de la Fondation Les Castors : jaune du logo (#FDD04E), or foncé et gris du site.
+     --accent : or assombri pour rester lisible en texte (contraste AA) ; --marque : jaune plein pour les aplats. */
+  --bg: #f6f5f1; --surface: #ffffff; --fg: #2b2b2b; --muted: #5f5e5a; --line: #dedcd5;
+  --accent: #8a6608; --marque: #fdd04e; --marque-fg: #2b2b2b;
+  --ok: #2b7a4b; --ok-soft: #e3f3e8; --warn: #a14d00; --warn-soft: #fdeedd; --crit: #b3261e; --crit-soft: #fbe7e5;
+  --font-display: "Literata", Georgia, "Times New Roman", serif;
+  --font-body: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --radius: 8px;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; border-top: 5px solid var(--marque); background: var(--bg); color: var(--fg); font-family: var(--font-body); font-size: 15px; line-height: 1.5; padding: 20px 16px 40px; }
+
+/* En-tête */
+.page { max-width: 1120px; margin: 0 auto; display: grid; gap: 20px; }
+header { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 8px 16px; }
+.logo { display: block; height: 44px; width: auto; max-width: 100%; margin-bottom: 10px; }
+h1 { font-family: var(--font-display); font-weight: 600; font-size: 1.6rem; margin: 0; text-wrap: balance; }
+.sous-titre { color: var(--muted); margin: 2px 0 0; font-size: .92rem; max-width: 65ch; }
+.confid { font-size: .82rem; color: var(--ok); background: var(--ok-soft); padding: 4px 10px; border-radius: 999px; }
+
+/* Mise en page : deux colonnes, la colonne de droite reste visible au défilement */
+.grille { display: grid; gap: 20px; grid-template-columns: 1fr; }
+@media (min-width: 900px) {
+  .grille { grid-template-columns: minmax(0, 1.05fr) minmax(0, 1fr); align-items: start; }
+  .colonne-droite { position: sticky; top: 16px; }
+}
+.colonne { display: grid; gap: 16px; min-width: 0; }
+.bloc { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.bloc h2 { font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 0; font-weight: 700; display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.etiquette-ex { font-size: .72rem; letter-spacing: .04em; color: var(--warn); background: var(--warn-soft); padding: 2px 8px; border-radius: 999px; text-transform: none; }
+
+/* Champs et boutons */
+textarea, input { width: 100%; font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--line); border-radius: 6px; padding: 9px 11px; }
+textarea { resize: vertical; }
+textarea:focus, input:focus, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+#notes { min-height: 140px; line-height: 1.55; }
+.aide { font-size: .85rem; color: var(--muted); margin: 0; }
+.rangee { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+button { font: inherit; cursor: pointer; border-radius: 6px; border: 1px solid var(--line); background: var(--surface); color: var(--fg); padding: 7px 12px; }
+button:hover { border-color: var(--accent); }
+.btn-principal { background: var(--marque); color: var(--marque-fg); border-color: var(--marque); font-weight: 700; }
+.btn-principal:hover { border-color: var(--accent); filter: brightness(.96); }
+.bascule { display: flex; gap: 8px; align-items: center; font-size: .9rem; }
+.bascule input { width: auto; }
+
+/* Vérification */
+.controles { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.controles li { display: grid; grid-template-columns: 92px 1fr; gap: 10px; align-items: start; }
+.controles strong { display: block; font-size: .92rem; }
+.controles p { margin: 0; font-size: .86rem; color: var(--muted); overflow-wrap: anywhere; }
+.statut { font-size: .74rem; font-weight: 700; text-align: center; padding: 3px 6px; border-radius: 4px; }
+.s-ok { color: var(--ok); background: var(--ok-soft); }
+.s-manque { color: var(--crit); background: var(--crit-soft); }
+.s-trous, .s-vague { color: var(--warn); background: var(--warn-soft); }
+.vide { color: var(--muted); font-size: .9rem; margin: 0; }
+.alertes { display: grid; gap: 8px; }
+.alerte { border-left: 3px solid var(--warn); background: var(--warn-soft); padding: 8px 10px; border-radius: 0 6px 6px 0; font-size: .88rem; }
+.alerte b { display: block; margin-bottom: 2px; }
+
+/* Point d'OJ proposé */
+.champ { display: grid; gap: 6px; }
+.champ-titre { font-size: .82rem; font-weight: 700; margin: 0; }
+.modeles { display: grid; gap: 6px; }
+.modeles button { text-align: left; line-height: 1.4; }
+.case { display: grid; gap: 6px; }
+.case-tete { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 8px; }
+.case-tete .rangee { flex-wrap: nowrap; margin-left: auto; }
+.case-tete label { font-weight: 700; font-size: .95rem; }
+.case textarea { font-size: .93rem; line-height: 1.55; }
+#sortieSujet { min-height: 130px; }
+#sortiePropo { min-height: 80px; }
+[data-regen] { font-size: .85rem; padding: 5px 10px; }
+.copie-ok { font-size: .82rem; color: var(--ok); }
+.gram { display: grid; gap: 8px; }

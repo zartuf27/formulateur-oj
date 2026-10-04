@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Sécurité : la page ne charge que ses propres fichiers et ne peut envoyer aucune donnée (connect-src 'none'). -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
+<meta name="color-scheme" content="light">
+<meta name="robots" content="noindex">
+<title>Formulateur de point d'OJ</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <header>
+    <div>
+      <img class="logo" src="logo-castors.svg" alt="Fondation Les Castors" width="501" height="100">
+      <h1>Formulateur de point d'OJ</h1>
+      <p class="sous-titre">Chaque point d'OJ contient un sujet bien décrit et une proposition de décision. Écrivez vos notes comme elles viennent : l'outil les met en forme et corrige l'orthographe. L'organisation, le temps, le responsable et le délai se décident pendant le colloque.</p>
+    </div>
+    <span class="confid">Tout reste dans votre navigateur · rien n'est enregistré ni envoyé</span>
+  </header>
+
+  <div class="grille">
+    <div class="colonne">
+      <section class="bloc" aria-labelledby="t-notes">
+        <h2 id="t-notes">Vos notes <span class="etiquette-ex" id="etiqEx">Exemple</span></h2>
+        <textarea id="notes" spellcheck="true" aria-describedby="aideNotes"></textarea>
+        <p class="aide" id="aideNotes">Écrivez comme vous pensez : la situation, depuis quand, ce que vous proposez de décider.</p>
+        <div class="rangee">
+          <button type="button" id="btnExemple">Autre exemple</button>
+          <button type="button" id="btnEffacer">Effacer</button>
+          <label class="bascule"><input type="checkbox" id="suivi"> Point de suivi (déjà traité en colloque)</label>
+        </div>
+      </section>
+
+      <section class="bloc" aria-labelledby="t-verif">
+        <h2 id="t-verif">Vérification</h2>
+        <ul class="controles" id="controles"></ul>
+        <div class="alertes" id="alertes"></div>
+      </section>
+    </div>
+
+    <div class="colonne colonne-droite">
+      <section class="bloc" aria-labelledby="t-form">
+        <h2 id="t-form">Point d'OJ proposé</h2>
+        <div class="case">
+          <div class="case-tete"><label for="sortieSujet">Case « Sujet »</label><span class="rangee"><span class="copie-ok" id="okSujet" role="status"></span><button type="button" data-regen="sortieSujet" title="Remplacer vos retouches par le texte tiré des notes" hidden>Régénérer</button><button type="button" class="btn-principal" data-copier="sortieSujet" data-ok="okSujet">Copier</button></span></div>
+          <textarea id="sortieSujet" spellcheck="true"></textarea>
+        </div>
+        <div class="case">
+          <div class="case-tete"><label for="sortiePropo">Case « Proposition de décision »</label><span class="rangee"><span class="copie-ok" id="okPropo" role="status"></span><button type="button" data-regen="sortiePropo" title="Remplacer vos retouches par le texte tiré des notes" hidden>Régénérer</button><button type="button" class="btn-principal" data-copier="sortiePropo" data-ok="okPropo">Copier</button></span></div>
+          <textarea id="sortiePropo" spellcheck="true"></textarea>
+        </div>
+        <div id="zoneModeles" class="champ" hidden>
+          <p class="champ-titre" id="l-mod"></p>
+          <div class="modeles" id="modeles" role="group" aria-labelledby="l-mod"></div>
+        </div>
+        <div class="gram" id="gram" aria-live="polite"></div>
+      </section>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
